@@ -1,4 +1,6 @@
 class Half_wave_rectifier:
+"""returns a value of the peak_output, average_output, and peak inverse voltages of the
+    half-wave rectifier"""
     
     def __init__(self, vp_in, n):
         self.vp_in = vp_in
@@ -8,15 +10,15 @@ class Half_wave_rectifier:
         vp_pri = self.vp_in
         vp_sec = self.n * vp_pri
         vp_out = vp_sec - 0.7
-        print(str(vp_out)) #returns a value of the peak input voltage
+        print(str(vp_out)) 
     
     def average_output_voltage(self):
         v_ave = ((self.n * self.vp_in) - 0.7) / pi
-        print(str(v_ave)) #returns a value of the average input voltage
+        print(str(v_ave)) 
         
     def peak_inverse_voltage(self):
         piv = self.n * self.vp_in
-        print(str(piv)) #returns a value of the peak inverse voltage
+        print(str(piv)) 
         
 where:
 
