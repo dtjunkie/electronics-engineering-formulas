@@ -24,7 +24,9 @@ class Full_wave_rectifier:
         
 where:
 
-v_rms = RMS secondary voltage
+vp_in = Input peak voltage, V
+n = turns ratio
+v_rms = RMS secondary voltage, V
 vp_sec = Voltage in the secondary circuit, V
 vp_out = Output peak voltage, V
 v_ave = Average output voltage, V
