@@ -1,4 +1,4 @@
-def Capacitor_input_filter(n, v_rms,r_load, c, f=120):
+def capacitor_input_filter(n, v_rms,r_load, c, f=120):
     
     """returns the values of the peak-to-peak ripple voltage, DC output voltage, 
     and the ripple factor"""
