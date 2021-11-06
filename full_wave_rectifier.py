@@ -21,6 +21,8 @@ class Full_wave_rectifier:
         v_ave = (2 * vp_out) / pi
         piv = vp_out + 0.7
         print(str(vp_out) + ", " + str(v_ave) + ", " + str(piv))
+
+"""
         
 where:
 
@@ -33,3 +35,5 @@ v_ave = Average output voltage, V
 piv = Peak inverse voltage, V
 
 NOTE: When using the bridge_type_fwr function, set vp_in and n to 0 to avoid errors
+
+"""
