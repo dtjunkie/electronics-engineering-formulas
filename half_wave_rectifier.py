@@ -19,6 +19,8 @@ class Half_wave_rectifier:
     def peak_inverse_voltage(self):
         piv = self.n * self.vp_in
         print(str(piv)) 
+
+"""
         
 where:
 
@@ -29,3 +31,5 @@ vp_sec = Voltage in the secondary circuit, V
 vp_out = Output peak voltage, V
 v_ave = Average output voltage, V
 piv = Peak inverse voltage, V
+
+"""
