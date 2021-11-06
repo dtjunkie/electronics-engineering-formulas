@@ -19,7 +19,8 @@ class Voltage_regulation_percentages:
         
         line_reg = ((self.volt_nl - self.volt_fl)/self.volt_fl) * 100
         print(str(line_reg))
-        
+"""
+
 where:
 
 dv_out = Change in the output voltage, V
@@ -30,3 +31,5 @@ load_reg = Load regulation, %
 line_reg = Line Regulation, %
 
 NOTE: For line regulation, set dv_out and dv_in to 0 to avoid errors.
+
+"""
