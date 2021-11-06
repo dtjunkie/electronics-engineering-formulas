@@ -11,6 +11,8 @@ def capacitor_input_filter(n, v_rms,r_load, c, f=120):
     rip_f = (vr_pp / v_dc) * 100
     print(str(vr_pp) + ", " + str(v_dc) + ", " + str(rip_f))
     
+"""
+
 where:
 
 - n = turns ratio
@@ -24,3 +26,5 @@ where:
 - vr_pp = Peak-to-peak ripple voltage, V
 - v_dc = DC output voltage, V
 - rip_f = ripple factor, %
+
+"""
