@@ -32,6 +32,8 @@ class Diode_approximations:
         v_rev = v_bias - v_rlimit
         print(str(i_rev) + ", " + str(v_rev) + ", " + str(v_rlimit)) 
         #returns the values of the reverse current, reverse voltage, and the voltage across the limit resistor of the complete diode
+
+"""        
         
 where:
 
@@ -43,4 +45,5 @@ v_fwd = Forward voltage, V (0 V for ideal model and 0.7 V for practical and comp
 r_dyn = Forward dynamic resistance, ohms
 v_rev = Reverse voltage, V (v_rev = v_bias for ideal and practical models)
 i_rev = Reverse current, V (0 V for ideal and practical models)
-        
+
+"""
